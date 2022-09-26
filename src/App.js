@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
+import Calendar from './Components/Userpage/Wrapper/Calendar'
+import Customers from './Components/Userpage/Wrapper/Customers'
+import Notifications from './Components/Userpage/Wrapper/Notifications'
+import Reports from './Components/Userpage/Wrapper/Reports'
+import Settings from './Components/Userpage/Wrapper/Settings'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+        {/* <Header /> */}
+        <Routes>
+          <Route path='/' element={<Calendar />} />
+          <Route path='/Wrapper/Calendar' element={<Calendar />} />
+          <Route path='/Wrapper/Reports' element={<Reports />} />
+          <Route path='/Wrapper/Customers' element={<Customers />} />
+          <Route path='/Wrapper/Notifications' element={<Notifications />} />
+          <Route path='/Wrapper/Settings' element={<Settings />} />
+        </Routes>
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
