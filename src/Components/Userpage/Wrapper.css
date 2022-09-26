@@ -55,6 +55,7 @@ transition: all 300ms ease;
 .dashlink.active{
     color: #0D4980;
     background:white;
+list-style: none;
     margin-left: 0 !important;
     padding: 0 !important;
 }
