@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Calendar from './Components/Userpage/Wrapper/Calendar'
+import Calendar from './Components/Userpage/Wrapper/Calendars'
 import Customers from './Components/Userpage/Wrapper/Customers'
 import Notifications from './Components/Userpage/Wrapper/Notifications'
 import Reports from './Components/Userpage/Wrapper/Reports'

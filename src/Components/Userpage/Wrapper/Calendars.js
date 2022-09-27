@@ -1,12 +1,16 @@
 import React from 'react'
 import Wrapper from '../Wrapper'
 
-const Calendar = () => {
+
+const Calendars = () => {
+
   return (
     <Wrapper>
-      <div>Calendar</div>
+      <>
+
+      </>
     </Wrapper>
   )
 }
 
-export default Calendar
+export default Calendars
