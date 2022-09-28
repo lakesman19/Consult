@@ -1,0 +1,72 @@
+.aa-all{
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(13, 73, 130,0.4) 30%, rgba(255, 255, 255, 0) 30%), url(../login/Rectanglelogin.svg);
+    height: 100%;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#0D4980  ;
+}
+
+.logo-image > img{
+    width: 100px;
+}
+
+.aa_body-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.aa_login-content{
+    width: 85%;
+    display: flex;
+
+}
+
+.aa_login-left{
+    width: 35%;
+}
+.aa_login-left > h2{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.aa_login-right{
+    width: 65%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aa_login-right> h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.aa_login-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+ .aa_login-form > a{
+    align-self: flex-start;
+    color: #0D4980;
+ }
+  .aa_login-form>input{
+    margin: .5rem;
+    padding:.5rem;
+    width: 100%;
+    background: #fff;
+    border: 1px solid;
+    border-radius: .3rem;
+  }
+  a{
+    color: #0D4980 !important;
+   }

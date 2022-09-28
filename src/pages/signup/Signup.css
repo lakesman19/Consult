@@ -1,0 +1,98 @@
+.all{
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(13, 73, 130,0.6) 30%, rgba(255, 255, 255, 0) 30%), url(../signup/Rectanglesignup.svg);
+    height: 100%;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#0D4980  ;
+}
+
+.aa_nav-container{
+   display: flex;
+   align-self: center;
+   justify-content: center;  
+}
+
+.aa_logo-cont{
+width: 85%;
+
+}
+
+.logo-image{
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.aa_body-part{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+  
+}
+
+.aa_body-cont {
+  width: 85%;
+  display: flex;
+  
+ }
+
+ .aa_body-left{
+   width:35%;
+   align-self: flex-end;
+ }
+
+.aa_body-left > h2{
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.aa_body-right{
+  width: 65%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aa_login-right> h1{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.aa_login-form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+ .aa_body-right > h1 {
+  color: #333;
+  font-size: 4rem;
+}
+
+ .aa-button{
+   margin: .7rem;
+   padding: 1rem;
+   width: 100%;
+   background-color: #0D4980;
+   border: none;
+   color: #fff;
+   border-radius: .5rem;
+ }
+
+ .aa-button2{
+   margin: .7rem;
+   padding: .3rem;
+   width: 100%;
+   background: #fff;
+   border: 1px solid;
+   border-radius: .5rem;
+ }
+ 

@@ -1,0 +1,24 @@
+.all-signin{
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(13, 73, 130,0.5) 30%, rgba(255, 255, 255, 0) 30%), url(../signin/Rectanglesignin.svg);
+    height: 100%;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#0D4980  ;
+}
+
+.aa_body-right > p{
+font-size: 1.2rem;
+color: #8A8A8A;
+}
+
+.aa_signin-button{
+    margin-top: 3rem;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #0D4980;
+    border: none;
+    color: #fff;
+    border-radius: .5rem;
+}
