@@ -1,7 +1,7 @@
 import React from 'react'
-import '../login/Login.css'
-import Backgroundlogin from '../login/Rectanglelogin.svg'
-import Logoconsult from "../login/Consultlogo.svg";
+import '../Login/Login.css'
+import Backgroundlogin from '../Login/Rectanglelogin.svg'
+import Logoconsult from "../Login/Consultlogo.svg";
 import Googleimage from "../signup/flat-color-icons_google.svg"
 
 const Login = () => {

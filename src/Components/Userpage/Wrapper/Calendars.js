@@ -30,7 +30,7 @@ const Calendars = () => {
   return (
     <Wrapper>
       <>
-        <ScheduleComponent currentView='Month' className='w-100'>
+        <ScheduleComponent currentView='Month' className='w-100 h-100 border  '>
           <Inject
           services={[Day, Week, WorkWeek, Month, Agenda]}/>
         </ScheduleComponent>

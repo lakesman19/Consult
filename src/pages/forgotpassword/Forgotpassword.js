@@ -1,8 +1,8 @@
 import React from 'react'
-import '../forgotpassword/Forgotpassword.css'
-import Background from '../forgotpassword/Rectangleforgot.svg'
-import Logoconsult from '../signup/Consultlogo.svg'
-import Googleimage from '../signup/flat-color-icons_google.svg'
+import './Forgotpassword.css'
+import Background from '../Forgotpassword/Rectangleforgot.svg'
+import Logoconsult from '../Signup/Consultlogo.svg'
+import Googleimage from '../Signup/flat-color-icons_google.svg'
 
 
 const Forgotpassword = () => {

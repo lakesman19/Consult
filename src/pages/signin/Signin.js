@@ -1,8 +1,8 @@
 import React from 'react'
-import '../signin/Signin.css'
-import Background from '../signin/Rectanglesignin.svg'
-import Logoconsult from '../signup/Consultlogo.svg'
-import Googleimage from '../signup/flat-color-icons_google.svg'
+import './Signin.css'
+import Background from '../Signin/Rectanglesignin.svg'
+import Logoconsult from '../Signup/Consultlogo.svg'
+import Googleimage from '../Signup/flat-color-icons_google.svg'
 
 
 const Signin = () => {

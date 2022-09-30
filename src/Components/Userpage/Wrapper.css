@@ -181,12 +181,13 @@ width: 100%;
     .texticon {
         display: block !important;
     }
-    .wrapper {
+    .wrappers {
         margin-left: 250px !important;
-        padding-top: 60px;
-        border: solid;
+        padding-top: 80px;
+        /* border: solid !important; */
         height: 100vh;
         background: #F7F8FF;
+        /* background: red !important; */
     }
     .dashlink .icon {
         font-size: 1.5rem !important;

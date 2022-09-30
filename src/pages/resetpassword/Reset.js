@@ -1,8 +1,8 @@
 import React from 'react'
-import '../resetpassword/Reset.css'
-import Background from '../resetpassword/Rectanglereset.svg'
-import Logoconsult from '../signup/Consultlogo.svg'
-import Googleimage from '../signup/flat-color-icons_google.svg'
+import './Reset.css'
+import Background from '../Resetpassword/Rectanglereset.svg'
+import Logoconsult from '../Signup/Consultlogo.svg'
+import Googleimage from '../Signup/flat-color-icons_google.svg'
 
 const Reset = () => {
   return (

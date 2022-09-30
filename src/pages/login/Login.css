@@ -1,6 +1,6 @@
 .aa-all{
     width: 100%;
-    background-image:linear-gradient(to right, rgba(13, 73, 130,0.4) 30%, rgba(255, 255, 255, 0) 30%), url(../login/Rectanglelogin.svg);
+    background-image:linear-gradient(to right, rgba(13, 73, 130,0.4) 30%, rgba(255, 255, 255, 0) 30%), url(../Login/Rectanglelogin.svg);
     height: 100%;
     /* overflow: hidden; */
     background-repeat: no-repeat;
