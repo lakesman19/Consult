@@ -1,5 +1,6 @@
 .wrappers{
     /* border:  solid green; */
+    /* margin-left: 250px; */
     height: 100vh;
     padding-top: 80px;
     transition: all 600ms ease;
@@ -181,9 +182,9 @@ width: 100%;
         display: block !important;
     }
     .wrapper {
-        /* margin-left: 200px; */
+        margin-left: 250px !important;
         padding-top: 60px;
-        /* border: solid; */
+        border: solid;
         height: 100vh;
         background: #F7F8FF;
     }
