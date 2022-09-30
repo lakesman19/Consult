@@ -17,17 +17,17 @@ const Wrapper = ({children}) => {
   return (
     <>
       <div className='d-flex w-100'>
-        <UserTopnav
+        <UsersideNav
+          toggle={toggle}
           inactive={inactive}
           setInactive={setInactive}
-          smallScreenToggle={smallScreenToggle}
-          setSmallScreenToggle={setSmallScreenToggle}
         />
         <div className='w-100'>
-          <UsersideNav
-            toggle={toggle}
+          <UserTopnav
             inactive={inactive}
             setInactive={setInactive}
+            smallScreenToggle={smallScreenToggle}
+            setSmallScreenToggle={setSmallScreenToggle}
           />
           <div
             className='wrappers'
