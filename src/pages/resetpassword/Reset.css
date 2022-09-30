@@ -1,0 +1,9 @@
+.all-reset{
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(13, 73, 130,0.6) 30%, rgba(255, 255, 255, 0) 30%), url(../resetpassword/Rectanglereset.svg);
+    height: 100%;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#0D4980  ;
+}
