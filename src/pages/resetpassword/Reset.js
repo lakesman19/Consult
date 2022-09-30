@@ -2,7 +2,7 @@ import React from 'react'
 import './Reset.css'
 import Background from '../Resetpassword/Rectanglereset.svg'
 import Logoconsult from '../Signup/Consultlogo.svg'
-import Googleimage from '../Signup/flat-color-icons_google.svg'
+// import Googleimage from '../Signup/flat-color-icons_google.svg'
 
 const Reset = () => {
   return (
