@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Login/Login.css'
+import './Login.css'
 import Backgroundlogin from '../Login/Rectanglelogin.svg'
 import Logoconsult from "../Login/Consultlogo.svg";
 import Googleimage from "../Signup/flat-color-icons_google.svg"

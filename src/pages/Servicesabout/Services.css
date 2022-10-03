@@ -1,0 +1,13 @@
+.all-services {
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(13, 73, 130, 0.6) 24%,
+        rgba(255, 255, 255, 0) 24%
+      ),
+      url("../Servicesabout/Rectangleservices.svg" );
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #0d4980;
+  }
