@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Signup.css"
-import Background from '../Signup/Rectanglesignup.svg'
+// import Background from '../Signup/Rectanglesignup.svg'
 import Logoconsult from '../Signup/Consultlogo.svg'
 import Googleimage from '../Signup/flat-color-icons_google.svg'
 

@@ -43,11 +43,7 @@ const UsernavLinks = ({ inactive }) => {
             justifyContent: inactive ? 'left' : 'center',
           }}
         >
-          <div
-            className='icon'
-          >
-            {MenuItem.icon}
-          </div>
+          <div className='icon'>{MenuItem.icon}</div>
           <div
             style={{ display: inactive ? 'block' : 'none' }}
             className='texticon'

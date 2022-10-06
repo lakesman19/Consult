@@ -2,7 +2,7 @@
     /* border:  solid green; */
     /* margin-left: 250px; */
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 90px;
     transition: all 600ms ease;
     /* width: 100%; */
   
@@ -36,7 +36,7 @@ transition: all 300ms ease;
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    color: white;
+    color: white !important;
     position: relative;
     text-transform: capitalize;
     margin-top: 1rem;
@@ -50,30 +50,27 @@ transition: all 300ms ease;
 
 }
 .dashlink .texticon{
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
 }
 .dashlink .icon {
-    font-size: 2rem;
+    font-size: 2rem !important;
+    /* width: 2rem !important; */
 }
 .dashlink.active{
-    color: #0D4980;
-    background:white;
-list-style: none;
-    margin-left: 0 !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 7.94%, rgba(255, 255, 255, 0.128) 43.52%, rgba(255, 255, 255, 0.056) 77.4%, rgba(255, 255, 255, 0.044) 97.43%, rgba(255, 255, 255, 0) 117.9%) !important;
     padding: 0 !important;
-}
-.dashlink:hover{
-    background: white;
-    color: #0D4980 !important   ;
+    
 }
 .dashlink.active::before{
     content: '' !important;
-    background: #E1B002 !important;
+    background: white !important;
     width: 7px  !important;
     height: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center ;
+        transition: all .2s ease-in;
+
 }
 .topnav{
 background-color: white !important;
@@ -83,7 +80,7 @@ position: fixed;
 z-index: 1000;
 height: 80px;
 align-items: center;
-justify-content: space-between;
+justify-content:flex-end;
 /* border: solid; */
 width: 100%;
 }
@@ -149,7 +146,362 @@ width: 100%;
   height: 100%;
   object-fit: contain;
 }
+/* calendar cssss */
 
+.e-schedule .e-schedule-toolbar .e-toolbar-items{
+    background: #0D4980 !important;
+    color: #FFFFFF;
+}
+.e-toolbar .e-tbar-btn {
+    background: none !important;
+}
+.e-toolbar .e-tbar-btn.e-btn .e-icons{
+    color: #FFFFFF !important;
+}
+.e-schedule{
+    border: none !important;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-date-range .e-tbar-btn .e-tbar-btn-text {
+
+    font-size: 14px;
+    text-transform: initial;
+
+}
+.e-schedule .e-schedule-toolbar .e-tbar-btn .e-tbar-btn-text {
+
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text{
+    color: #FFFFFF !important;
+}
+.appoinments{
+    gap: 3rem;
+}
+.total-appointment{
+    border: solid #0D4980 1px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    /* height: 0px; */
+    padding: 1rem;
+}
+.total-appointment p:first-child{
+    font-size: 2rem;
+    color: #E1B002;
+}
+.total-appointment p{
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+}
+/* end of calendar css */
+/* reports csss */
+.reports{
+    border: 1px solid #8A8A8A;
+    /* height: 100%; */
+    margin: 0 auto;
+    width: 90%;
+}
+.graphs{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graphs img{
+    width: 60%;
+}
+.charts-options{
+    width: 30%;
+    border-left: solid 1px #8A8A8A;
+    height: 100%;
+    text-transform: capitalize;
+}
+.report-type, .workspace, .date-range{
+    border-bottom: #8A8A8A 1px solid;
+    padding: 1rem 1.5rem;   
+}
+.reports select{
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.report-type .r-type{
+    margin-bottom: 1rem !important;
+}
+.chartbtn{
+    padding: 1rem 1.5rem;   
+}
+.chartbtn .applybtn{
+    background: #0D4980 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    width: 100px;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    padding: .5rem;
+
+}
+.chartbtn .resetbtn{
+    background: #0D49800D !important;
+    border: none !important;
+    color: #0D4980 !important;
+    width: 100px;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+/* end of  reports chart */
+/* customers css */
+.customers-select{
+    box-shadow: none !important;
+}
+.sort-section{
+    gap: 10px;
+}
+.sort-section label {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* table css */
+.table{
+    width: 95% !important;
+}
+ .table tr td {
+    padding: 1rem .5rem;
+    border-bottom: #333333 solid 1px;
+    text-transform: capitalize;
+}
+.table tbody{
+    border: #333333 solid 1px ;
+}
+.table tr th{
+    background-color:#0D4980 !important;
+    color: white;
+    padding: 1rem .5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+/* table css */
+/* popover css for add */
+.appoinment-popover-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.popover-label{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.customer-popover-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1976D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.services-popover-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #A92800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.unavailable-popover-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.extra-popover-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00544A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+/* end popover css */
+/* addcustomer modal style */
+.customermodal{
+    height: 40px;
+}
+.customermodal label {
+    width: 30%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:#5A5A5A;
+}
+.customermodal input {
+    width: 65%;
+    border:none ;
+    height: 100%;
+    outline: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.modal-content{
+    border: none;
+}
+.modal{
+    --bs-modal-width: 650px !important;
+}
+.modalhead .cancel{
+    background-color: #0D4980;
+    height: 40px;
+    width: 40px;
+    border-radius: .5rem;
+}
+.Addiconmodal{
+     background-color:#1976D2;
+    height: 40px;
+    width: 40px;
+    border-radius: .5rem;
+}
+.modalbody{
+    background: #0D498080;
+}
+.modalbody form {
+    width: 90%;
+    /* border: red solid; */
+}
+.modalfooter{
+    border: none !important;
+    background: #0D498080 !important;
+    /* row-gap: .5rem; */
+    /* border: green solid !important; */
+    display:flex !important ;
+    justify-content: center ;
+    width: 100%;
+    align-items: center;
+}
+.modalfooter .footerbtn {
+    display: flex;
+    width: 90%;
+    /* border: red solid; */
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.modalfooter .closebtn{
+    background-color: #0D49800D;
+    color: #333333;
+    padding: .5rem 1rem ;
+    font-weight: 400;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}   
+.modalfooter .save{
+    background-color: #0D4980;
+    color: white;
+    padding: .5rem 1rem ;
+    font-weight: 400;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+/* END ADD CUSTOMER CSS */
+
+/* ADD APPOINTMENT CSS STYLE */
+.Addappointiconmodal{
+     background-color:#FFC107;
+    height: 40px;
+    width: 40px;
+    border-radius: .5rem;
+}
+.appoinmentselect{
+    width: 65% !important;
+    border:none ;
+    height: 100%;
+    outline: none;
+    box-shadow: none !important;
+    padding: .5rem;
+    border-radius: .5rem !important;
+}
+.textarea{
+    width: 65% !important;
+   
+}
+.textarea textarea{
+    width: 100%;
+    border:none ;
+    outline: none;
+    padding: .5rem;
+    border-radius: .5rem !important;
+}
+.checkbox p {
+    margin-bottom: 0 !important;
+}
+.customermodals label{
+       width: 30%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:#5A5A5A;
+}
+.modalfooter .footerbtnappoinment {
+    display: flex;
+    width: 100%;
+    /* border: red solid; */
+    align-items: center;
+    justify-content: flex-end;
+    /* gap: .5rem; */
+}
+
+.modalfooter .closebtn{
+    background-color: #0D49800D;
+    color: #333333;
+    padding: .5rem 1rem ;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}   
+.modalfooter .save{
+    background-color: #0D4980;
+    color: white;
+    padding: .5rem 1rem ;
+    width: 50%;
+    font-weight: 400;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
 
 @media (max-width: 991px) {
     .mediumscreen{
@@ -168,12 +520,14 @@ width: 100%;
     font-size: 2rem;
     color: white;
 }
-    .dashlink.active::before{
-    content: none !important;
-    background:none;
-    width: 0px  !important;
-    height: 0% !important;
-    display: block;
+.dashlink.active::before{
+    content: '' !important;
+    background: white !important;
+    width: 7px  !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
 }
 }
 
@@ -183,16 +537,17 @@ width: 100%;
     }
     .wrappers {
         margin-left: 250px !important;
-        padding-top: 80px;
+        padding-top: 90px;
         /* border: solid !important; */
         height: 100vh;
-        background: #F7F8FF;
+        /* background: #F7F8FF; */
         /* background: red !important; */
     }
     .dashlink .icon {
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
         font-weight: 800;
     }
+    
 
     .dashlink {
         justify-content: left !important;
