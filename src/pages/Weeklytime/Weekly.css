@@ -1,0 +1,122 @@
+.all-weekly {
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(13, 73, 130, 0.6) 24%,
+      rgba(255, 255, 255, 0) 24%
+    ),
+    url(../Weeklytime/Rectangleweekly.svg);
+  height: 100%;
+  /* overflow: hidden; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #0d4980;
+}
+.aa_weekly-left {
+  width: 35%;
+}
+
+.aa_weekly-right {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aa_right-content > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.aa_box-left > input[type="checkbox"] {
+  box-sizing: border-box;
+  appearance: none;
+  background: #fff;
+  outline: 0.01rem solid #8a8a8a;
+  border: 0.05rem solid #fff;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.aa_box-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+.aa_box-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4rem;
+}
+.aa_box-right > input[type="time"] {
+  align-self: center;
+  width: 8rem;
+  height: 3.5rem;
+  appearance: none;
+  background: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 10px;
+
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: url("../Weeklytime/aa-inverted.svg") no-repeat;
+  margin-top: 1rem;
+}
+
+.aa_week-days,
+.aa-arrow {
+  width: 6rem;
+  height: 3.125rem;
+  background: #0d4980;
+  border-radius: 10px;
+  margin-left: 2rem;
+  color: #fff;
+  border: 1px solid #0d4980;
+}
+.aa_week-days {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.aa_box-left > input[type="checkbox"]:checked {
+  /* background: #333; */
+  background: url(../Weeklytime/aa-checked.svg) no-repeat;
+}
+
+.aa_box-content {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.aa_right-content {
+
+  padding: 2rem;
+  width: 873px;
+  background: #ffffff;
+  border: 1px solid #0c080866;
+  box-shadow: 0px 384px 154px rgba(0, 0, 0, 0.01),
+    0px 216px 130px rgba(0, 0, 0, 0.05), 0px 96px 96px rgba(0, 0, 0, 0.09),
+    0px 24px 53px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.aa_weekly-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.aa-arrow {
+  border-radius: 8px;
+  align-self: flex-end !important;
+  margin-top: 2rem;
+}
