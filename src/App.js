@@ -20,21 +20,12 @@ function App() {
       <Router>
         {/* <Header /> */}
         <Routes>
-          {/* <Route path='/' element={<Calendar />} /> */}
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Signin" element={<Signin />} />
-          <Route path="/Signup" element={<Signup />} />
-          <Route path="/Resetpassword" element={<Reset />} />
-          <Route path="/Forgotpassword" element={<Forgotpassword />} />
-          <Route path="/Weeklytime" element={<Weekly />} />
-          <Route path="/Aboutbusiness" element={<About />} />
-          <Route path="/Servicesabout" element={<Services />} />
 
-          {/* <Route path='/Wrapper/Calendar' element={<Calendar />} />
+<Route path='/Wrapper/Calendar' element={<Calendar />} />
           <Route path='/Wrapper/Reports' element={<Reports />} />
           <Route path='/Wrapper/Customers' element={<Customers />} />
           <Route path='/Wrapper/Notifications' element={<Notifications />} />
-          <Route path='/Wrapper/Settings' element={<Settings />} /> */}
+          <Route path='/Wrapper/Settings' element={<Settings />} />
         </Routes>
       </Router>
     </>

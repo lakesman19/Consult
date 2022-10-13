@@ -12,14 +12,6 @@ const UserTopnav = ({ inactive, setSmallScreenToggle, smallScreenToggle }) => {
         className='topnav'
         style={{ paddingLeft: inactive ? '250px' : '80px' }}
       >
-        <select
-          class='form-select form-select-sm select'
-          aria-label='.form-select-sm example'
-          style={{width:'120px'}}
-        >
-          <option selected>Calendar</option>
-          <option value='1'>List view</option>
-        </select>
         <div className='bookingandprofi d-flex justify-content-center align-items-center'>
           <div className='booking'>
             <BiAlarm />
