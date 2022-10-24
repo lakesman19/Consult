@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal'
 import { AiOutlineCalendar } from 'react-icons/ai'
 
-const AddCustomer = ({ setOpenn }) => {
+const AddCustomer = ({ setOpenn,props }) => {
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
@@ -22,7 +22,13 @@ const AddCustomer = ({ setOpenn }) => {
         </div>
         <div className='appoinment- popover-label'>Add Appointment</div>
       </div>
-      <Modal show={show} onHide={handleClose}>
+      <Modal
+        {...props}
+        show={show}
+        onHide={handleClose}
+        aria-labelledby='contained-modal-title-vcenter'
+        centered
+      >
         <Modal.Header className='modalhead'>
           <Modal.Title className='d-flex gap-3'>
             <div className='Addappointiconmodal'></div>
@@ -49,6 +55,13 @@ const AddCustomer = ({ setOpenn }) => {
                 <option selected>Calendar</option>
                 <option value='1'>List view</option>
               </select>
+            </div>
+            <div className='customermodal w-100 d-flex justify-content-between align-items-center mt-4'>
+              <label htmlFor='number'>Date&Time</label>
+              <div className='durationservice'>
+                <input type='date' />
+                <input type='time' />
+              </div>
             </div>
             <div className='customermodal w-100 d-flex justify-content-between mt-4'>
               <label htmlFor='staff'>Customer</label>

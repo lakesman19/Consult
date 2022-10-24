@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaUserAlt } from 'react-icons/fa'
 import Modal from 'react-bootstrap/Modal'
 
-const AddCustomer = ({setOpenn}) => {
+const AddCustomer = ({setOpenn,props}) => {
    const [show, setShow] = useState(false)
 
    const handleClose = () => setShow(false)
@@ -23,7 +23,13 @@ const AddCustomer = ({setOpenn}) => {
         </div>
         <div className='appoinment- popover-label'>Add customer</div>
       </div>
-      <Modal show={show} onHide={handleClose}>
+      <Modal
+        {...props}
+        show={show}
+        onHide={handleClose}
+        aria-labelledby='contained-modal-title-vcenter'
+        centered
+      >
         <Modal.Header className='modalhead'>
           <Modal.Title className='d-flex gap-3'>
             <div className='Addiconmodal'></div>
@@ -33,15 +39,15 @@ const AddCustomer = ({setOpenn}) => {
         </Modal.Header>
         <Modal.Body className='modalbody d-flex justify-content-center align-items-center flex-column w-100'>
           <form action=''>
-            <div className='customermodal w-100 d-flex justify-content-between align-items-center mt-4'>
+            <div className='customermodal w-100 d-flex justify-content-between  mt-4'>
               <label htmlFor='customer name'>Customer’s Name*</label>
               <input type='text' />
             </div>
-            <div className='customermodal w-100 d-flex justify-content-between align-items-center mt-4'>
+            <div className='customermodal w-100 d-flex justify-content-between mt-4'>
               <label htmlFor='email'>Email address</label>
               <input type='email' />
             </div>
-            <div className='customermodal w-100 d-flex justify-content-between align-items-center mt-4'>
+            <div className='customermodal w-100 d-flex justify-content-between mt-4'>
               <label htmlFor='number'>Phone Number</label>
               <input type='tel' />
             </div>

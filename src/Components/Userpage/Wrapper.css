@@ -257,6 +257,9 @@ width: 100%;
 }
 /* end of  reports chart */
 /* customers css */
+.customerpage{
+    overflow-x: scroll;
+}
 .customers-select{
     box-shadow: none !important;
 }
@@ -269,7 +272,7 @@ width: 100%;
     font-weight: 500;
 }
 /* table css */
-.table{
+.tables{
     width: 95% !important;
 }
  .table tr td {
@@ -287,7 +290,7 @@ width: 100%;
     text-transform: capitalize;
     font-size: 1.5rem;
 }
-/* table css */
+/* END table css */
 /* popover css for add */
 .appoinment-popover-icon{
     width: 40px;
@@ -398,7 +401,7 @@ width: 100%;
     /* row-gap: .5rem; */
     /* border: green solid !important; */
     display:flex !important ;
-    justify-content: center ;
+    justify-content: center !important ;
     width: 100%;
     align-items: center;
 }
@@ -476,7 +479,7 @@ width: 100%;
     /* gap: .5rem; */
 }
 
-.modalfooter .closebtn{
+.footerbtnappoinment  .closebtn{
     background-color: #0D49800D;
     color: #333333;
     padding: .5rem 1rem ;
@@ -489,7 +492,7 @@ width: 100%;
     border-radius: .5rem;
     cursor: pointer;
 }   
-.modalfooter .save{
+.footerbtnappoinment  .save{
     background-color: #0D4980;
     color: white;
     padding: .5rem 1rem ;
@@ -502,6 +505,52 @@ width: 100%;
     border-radius: .5rem;
     cursor: pointer;
 }
+/* END APPOINTMENT CSS */
+/* ADD SERVICES CSS */
+.Addserviceiconmodal{
+     background-color:#A92800;
+    height: 40px;
+    width: 40px;
+    border-radius: .5rem;
+}
+.durationservice {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.durationservice input{
+    width: 45%;
+}
+/* END SERVICES CSS */
+/* UNAVAILABLE CSS */
+.Addunavailableiconmodal{
+      background-color:#333333;
+    height: 40px;
+    width: 40px;
+    border-radius: .5rem;
+}
+.customermodalspecial label {
+    width: 30%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:#5A5A5A;
+}
+.checkunavailable{
+    width: 65%;
+    display: flex;
+    gap: 1rem;
+}
+.businesscheck .staffcheck{
+    width: 30% ;
+}
+.unavailableinput{
+    width:65% !important;
+}
+.unavailableinput input {
+    width: 45%;
+}
+
+
 
 @media (max-width: 991px) {
     .mediumscreen{
